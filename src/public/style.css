@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ebee;
+}
+#chat-box {
+    width: 400px;
+    max-width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#messages {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background: #fafafa;
+}
+.message {
+    max-width: 80%;
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    border-radius: 15px;
+    line-height: 1.4;
+    font-size: 14px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.05);
+}
+.user-message {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+}
+.response-message {
+    background-color: #f0f0f0;
+    align-self: flex-start;
+}
+#input-area {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+#message-input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 18px;
+    padding: 10px 15px;
+    margin-right: 8px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+#send-button {
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#send-button:hover {
+    background-color: #45a049;
+}
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.user-message .message-content {
+    background-color: #d1e7dd; /* Light green background */
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px; /* Space between image and message */
+}
+
+.user-message .user-image {
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    border-radius: 50%; /* Circular image */
+}
+
+/* Add similar styles for response messages if needed */
+
+
+pre, code {
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    background-color: #f8f8f8; /* Light gray background */
+    border: 1px solid #ddd; /* Light border for code blocks */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside code blocks */
+    white-space: pre-wrap; /* Ensures that the code wraps */
+    word-wrap: break-word; /* Breaks long words if necessary */
+    overflow-x: inherit; /* Horizontal scrollbar if the code is too wide */
+    display: block;
+}
+.message {
+    margin-bottom: 10px; /* Space between messages */
+    /* Other styles for .message... */
+}
+img.bot-icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    
+    margin-right: 5px; /* Space between icon and text */
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+#messages {
+    font-family: Arial, sans-serif; /* Default font for messages */
+    /* Other styles for #messages... */
+    display: flex;
+    flex-direction: column;
+}

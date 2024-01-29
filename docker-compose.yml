@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:14
+    container_name: mypostgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: kamran1234
+      POSTGRES_DB: postgres
+    ports:
+      - "5433:5432"  # Map host port 5433 to container port 5432
+
+  aichtbot-backend:
+    image: aichtbot-backend  # Use the correct image name for your backend
+    ports:
+      - "8084:8084"  # Map host port 8084 to container port 8084 (ensure this matches your backend's listening port)
+    environment:
+      DB_HOST: postgres  # Use the service name as the hostname
+      DB_PORT: 5432  # Use the default PostgreSQL port
+      # Include other necessary environment variables for your backend
+    depends_on:
+      - postgres
+
+  aichatbot-frontend:
+    build: ./client  # Updated path to your frontend Dockerfile directory
+    ports:
+      - "3000:80"  # Map host port 3000 to container port 80 served by Nginx
