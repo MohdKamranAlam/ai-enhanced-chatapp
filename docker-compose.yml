@@ -12,6 +12,7 @@ services:
       - "5433:5432"  # Map host port 5433 to container port 5432
 
   aichtbot-backend:
+    build: ./
     image: aichtbot-backend  # Use the correct image name for your backend
     ports:
       - "8084:8084"  # Map host port 8084 to container port 8084 (ensure this matches your backend's listening port)
