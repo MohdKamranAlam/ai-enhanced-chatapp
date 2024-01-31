@@ -50,5 +50,5 @@ sequelize.sync().then(() => {
     
 }).catch((err)=>{
     console.error("Error Occured during db sync: ", err)
-    logEvents(`${err.no}: ${err.code}\t${err.syscall}\t${err.hostname}`, 'mongoErrLog.log')
+    logEvents(`${err.no}: ${err.code}\t${err.syscall}\t${err.hostname}`, 'postgres.log')
 })
