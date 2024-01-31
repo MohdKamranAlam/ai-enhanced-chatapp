@@ -71,5 +71,5 @@ Usage:
 
 Developer: Mohammad Kamran Alam
 Project Repository: GitHub
-    Frontend: <rhttps://github.com/MohdKamranAlam/client.git>,
-    Backend: <rhttps://github.com/MohdKamranAlam/ai-enhanced-chatapp.git> 
+    ## Frontend: <rhttps://github.com/MohdKamranAlam/client.git>,
+    ## Backend: <rhttps://github.com/MohdKamranAlam/ai-enhanced-chatapp.git> 
