@@ -69,7 +69,8 @@ Usage:
     
     Use the chat interface to interact with the AI chatbot in real-time.
 
-Developer: Mohammad Kamran Alam
-Project Repository: GitHub
+#### Developer: Mohammad Kamran Alam
+## Project Repository: GitHub:
+
     ## Frontend: <rhttps://github.com/MohdKamranAlam/client.git>,
     ## Backend: <rhttps://github.com/MohdKamranAlam/ai-enhanced-chatapp.git> 
