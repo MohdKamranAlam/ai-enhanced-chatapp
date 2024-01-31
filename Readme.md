@@ -22,6 +22,21 @@ Error Handling: Robust error handling to ensure the server responds gracefully t
             Navigate to the project directory:
 
 
+
+you can use .env file congig. First create .env then past this on .env below:
+
+<!-- DB_USER=postgres
+DB_HOST=localhost
+DB_NAME=postgres
+DB_PASSWORD=kamran1234
+DB_PORT=5432
+OPENAI_API_KEY=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
+JWT_SECRET=kamranalam
+GOOGLE_APPLICATION_CREDENTIALS=./config/aichatbot21747-590504588371.json
+REDIS_URL=redis://<user>:<password>@<host>:<port>
+REDIS_PASSWORD=your_redis_password -->
+
+
 backend: cd ai-enhanced-chatapp
 frontend: cd client
 
@@ -69,8 +84,10 @@ Usage:
     
     Use the chat interface to interact with the AI chatbot in real-time.
 
-#### Developer: Mohammad Kamran Alam
-## Project Repository: GitHub:
+Developer: Mohammad Kamran Alam
+Project Repository: GitHub
+    Frontend: <rhttps://github.com/MohdKamranAlam/client.git>,
+    Backend: <rhttps://github.com/MohdKamranAlam/ai-enhanced-chatapp.git> 
 
-    ## Frontend: <rhttps://github.com/MohdKamranAlam/client.git>,
-    ## Backend: <rhttps://github.com/MohdKamranAlam/ai-enhanced-chatapp.git> 
+
+
