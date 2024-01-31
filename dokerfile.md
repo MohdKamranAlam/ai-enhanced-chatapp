@@ -40,5 +40,5 @@
     Finally, let your client know that once all containers are up and running, they can access the frontend of the application by   opening a web browser and navigating to http://localhost:3000. The backend APIs will be accessible at http://localhost:8084.
 
 Troubleshooting:
-If the client encounters any issues, they can check the logs of any container by using the following command, replacing <container_name> with the name of the container they wish to inspect (backend, frontend, or mypostgres):
+If you have any issues, they can check the logs of any container by using the following command, replacing <container_name> with the name of the container they wish to inspect (backend, frontend, or mypostgres):
 
